@@ -8,29 +8,14 @@
 
 - 🧍 **Posture Recognition**  
   Detects slouching, improper leg position, and poor alignment.
-
 - 🪑 **Sitting Posture Detection**  
   Identifies if you're sitting and evaluates your back posture.
-
 - 🏋️ **Push-up Detection**  
   Tracks push-up reps using elbow angles.
-
 - 📈 **Posture Accuracy Score**  
   Shows percentage accuracy of your form in real-time.
-
 - 🔁 **Live Feedback Overlay**  
   Displays posture feedback and push-up count directly on the webcam feed.
-
----
-
-## 📂 Folder Structure
-
-```
-Posturize/
-├── main.py              # Main script for posture & push-up tracking
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
-```
 
 ---
 
@@ -61,30 +46,6 @@ python main.py
 ```
 
 4. **Press `q` to quit the camera window.**
-
----
-
-## 📋 How It Works
-
-- **Back Angle** is calculated using shoulder, hip, and knee points.
-- **Sitting** is detected when the hip is lower than the shoulder.
-- **Push-ups** are counted based on elbow angle transitions.
-- **Accuracy** drops when posture falls outside the healthy range.
-
----
-
-## 🎯 Use Cases
-- Desk job posture awareness
-- Fitness training & form correction
-- Physiotherapy and rehab assistance
-
----
-
-## ✅ Future Improvements
-- Add support for squats and planks
-- Create a Streamlit dashboard
-- Generate posture correction reports
-- Audio alerts for posture deviation
 
 ---
 
